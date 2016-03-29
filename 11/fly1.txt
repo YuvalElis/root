@@ -1,8 +1,8 @@
 public class Box {
 
     private int length;
-    private int width;//2
-    private int height;//ok
+    private int width;
+    private int height;
 
 
     public Box(int width, int height) {
@@ -13,6 +13,6 @@ public class Box {
 
     public int area() {
 	// Return area.
-	return this.width * this.height;//no int ?
+	return this.width * this.height;
     }
 }
